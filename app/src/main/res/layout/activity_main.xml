@@ -7,16 +7,17 @@
     xmlns:tools="http://schemas.android.com/tools">
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
+        android:theme="@style/AppTheme.AppBarOverlay"
         android:layout_height="wrap_content">
         <android.support.v7.widget.Toolbar
             android:layout_width="match_parent"
             android:id="@+id/toolBar"
             app:popupTheme="@style/AppTheme.PopupOverlay"
             android:background="?attr/colorPrimary"
-            app:titleTextColor="#ffffff"
+            app:title=""
             android:layout_height="?attr/actionBarSize">
 
         </android.support.v7.widget.Toolbar>
     </android.support.design.widget.AppBarLayout>
-</android.support.design.widget.CoordinatorLayout>
 
+</android.support.design.widget.CoordinatorLayout>

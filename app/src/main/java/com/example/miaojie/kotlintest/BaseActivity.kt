@@ -18,15 +18,15 @@ import kotlinx.android.synthetic.main.activity_main.*
         super.onCreate(savedInstanceState, persistentState)
 
     }
-    protected fun initView()
+    open fun initView()
     {
         setSupportActionBar(toolBar)
     }
-    protected fun showSnackbar(view:View,message:String)
+    open fun showSnackbar(view:View,message:String)
     {
         Snackbar.make(view,message,Snackbar.LENGTH_SHORT).show()
     }
-    protected fun showToast(context:Context,message: String)
+    open fun showToast(context:Context,message: String)
     {
         Toast.makeText(context,message,Toast.LENGTH_SHORT).show();
     }

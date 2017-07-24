@@ -6,6 +6,7 @@ import android.util.Log
 import android.view.View
 import android.widget.ProgressBar
 import android.widget.TextView
+import com.example.miaojie.kotlintest.NetWork.NewsRequestUrl
 import kotlinx.android.synthetic.*
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_main.view.*
@@ -18,4 +19,5 @@ class MainActivity : BaseActivity() {
         setSupportActionBar(toolBar)
 
     }
+
 }
